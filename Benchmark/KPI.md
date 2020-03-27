@@ -1,0 +1,29 @@
+ - <b id="#/properties/measure">measure</b>
+	 - **Description:** Name of the KPI  being expressed. Eg. Days in milk per cow , KgMilksolids/ha
+	 - **Type:** `string`
+ - <b id="#/properties/denominator">denominator</b>
+	 - **Description:** Denominator of the KPI (if any). Typical denominators include /ha, /FTE, /hd
+	 - **Type:** `string`
+ - <b id="#/properties/amount">amount</b>
+	 - **Description:** Actual value of the KPI
+	 - **Type:** `integer`
+ - <b id="#/properties/unit">unit</b>
+	 - **Description:** The units of the KPI
+	 - **Type:** `string`
+ - <b id="#/properties/currency">currency</b>
+	 - **Description:** ISO 4217 International currency code
+	 - **Type:** `string`
+ - <b id="#/properties/participants">participants</b>
+	 - **Description:** Sample size or number of participating entities whose data has been aggregated to compute the benchmark KPI
+	 - **Type:** `integer`
+ - <b id="#/properties/qualityScore">qualityScore</b>
+	 - **Description:** Quality of the benchmark data indicated on a scale of 0-5
+	 - **Type:** `integer`
+ - <b id="#/properties/aggregation">aggregation</b>
+	 - **Description:** Describes the aggregation function applied to the dataset to compute the KPI. Measures of spread describe how similar or varied the set of observed values are for a particular variable (data item). Measures of spread include the range, quartiles and the interquartile range, variance and standard deviation. Eg.Average,Median,Mean,Percentile,Quartile,Mode
+	 - **Type:** `string`
+ - <b id="#/properties/aggregationOrder">aggregationOrder</b>
+	 - **Description:** Eg. First , Second for Quartile aggregation
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

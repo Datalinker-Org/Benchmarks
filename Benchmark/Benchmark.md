@@ -1,0 +1,21 @@
+ - <b id="#/properties/name">name</b>
+	 - **Description:** Name if any for the benchmark data
+	 - **Type:** `string`
+ - <b id="#/properties/reportStartDate">reportStartDate</b>
+	 - **Description:** Start date of the KPI reporting period
+	 - **Type:** `string`
+ - <b id="#/properties/reportEndDate">reportEndDate</b>
+	 - **Description:** End date of the KPI reporting period
+	 - **Type:** `string`
+ - <b id="#/properties/participants">participants</b>
+	 - **Description:** Sample size or number of participating entities whose data has been aggregated to compute the benchmark data
+	 - **Type:** `integer`
+ - <b id="#/properties/status">status</b>
+	 - **Description:** Status of the benchmark data. e.g. InProgress or Finalised
+	 - **Type:** `string`
+ - <b id="#/properties/KPIs">KPIs</b>
+	 - **Description:** Array of KPI measures
+	 - **Type:** `array`
+	 - <b id="kpikpi.md">Link to schema: [KPI](KPI.md)</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

@@ -1,0 +1,23 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique identifier
+	 - **Type:** `string`
+ - <b id="#/properties/name">name</b>
+	 - **Description:** Short name e.g. 'Milk solids (kg/ha)'
+	 - **Type:** `string`
+ - <b id="#/properties/description">description</b>
+	 - **Description:** Textual description
+	 - **Type:** `string`
+ - <b id="#/properties/filterParameter">filterParameter</b>
+	 - **Description:** Filter parameter to be used, e.g. 'nzdmsh' for metric 'nz.dairy.milksolidsha', 'nzdch' for metric 'nz.dairy.cowsha'
+	 - **Type:** `string`
+ - <b id="#/properties/units">units</b>
+	 - **Description:** ISO unit name
+	 - **Type:** `string`
+ - <b id="#/properties/denominator">denominator</b>
+	 - **Description:** ISO unit name or 'cows', 'FTE', etc
+	 - **Type:** `string`
+ - <b id="#/properties/currency">currency</b>
+	 - **Description:** ISO 4217 International currency code
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

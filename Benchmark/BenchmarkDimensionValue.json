@@ -1,1 +1,25 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"name":{"@id":"https://www.datalinker.org/context/BenchmarkDimensionValue-name","@type":"xsd:string","type":"string","dldescription":"The name of the dimension in the source system e.g.Business Type, Region, Farm Type"},"id":{"@id":"https://www.datalinker.org/context/BenchmarkDimensionValue-id","@type":"@id","type":"string","format":"uri","dldescription":"Standard identifier for the dimension e.g. nz.dairy.farmsystem"},"value":{"@id":"https://www.datalinker.org/context/BenchmarkDimensionValue-value","@type":"xsd:string","type":"string","dldescription":"Dimension value that was used in pair with filter parameter. e.g.For region name, value could be Waikato, Bay of Plenty etc. For Business Type value can be Owner operator, 50-50 Sharemilker, Variable order etc."}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "@id": "[name](#name)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "The name of the dimension in the source system e.g.Business Type, Region, Farm Type"
+    },
+    "id": {
+      "@id": "[id](#id)",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dldescription": "Standard identifier for the dimension e.g. nz.dairy.farmsystem"
+    },
+    "value": {
+      "@id": "[value](#value)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Dimension value that was used in pair with filter parameter. e.g.For region name, value could be Waikato, Bay of Plenty etc. For Business Type value can be Owner operator, 50-50 Sharemilker, Variable order etc."
+    }
+  }
+}
