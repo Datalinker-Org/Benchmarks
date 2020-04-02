@@ -1,1 +1,49 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"id":{"@id":"https://www.datalinker.org/context/BenchmarkMetric-id","@type":"@id","type":"string","format":"uri","dldescription":"Unique identifier"},"name":{"@id":"https://www.datalinker.org/context/BenchmarkMetric-name","@type":"xsd:string","type":"string","dldescription":"Short name e.g. 'Milk solids (kg/ha)'"},"description":{"@id":"https://www.datalinker.org/context/BenchmarkMetric-description","@type":"xsd:string","type":"string","dldescription":"Textual description"},"filterParameter":{"@id":"https://www.datalinker.org/context/BenchmarkMetric-FilterParameter","@type":"xsd:string","type":"string","dldescription":"Filter parameter to be used, e.g. 'nzdmsh' for metric 'nz.dairy.milksolidsha', 'nzdch' for metric 'nz.dairy.cowsha'"},"units":{"@id":"https://www.datalinker.org/context/BenchmarkMetric-units","@type":"xsd:string","type":"string","dldescription":"ISO unit name"},"denominator":{"@id":"https://www.datalinker.org/context/BenchmarkMetric-denominator","@type":"xsd:string","type":"string","dldescription":"ISO unit name or 'cows', 'FTE', etc"},"currency":{"@id":"https://www.datalinker.org/context/BenchmarkMetric-Currency","@type":"xsd:string","type":"string","dldescription":"ISO 4217 International currency code"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "@id": "[id](#id)",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dldescription": "Unique identifier"
+    },
+    "name": {
+      "@id": "[name](#name)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Short name e.g. 'Milk solids (kg/ha)'"
+    },
+    "description": {
+      "@id": "[description](#description)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Textual description"
+    },
+    "filterParameter": {
+      "@id": "[FilterParameter](#FilterParameter)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Filter parameter to be used, e.g. 'nzdmsh' for metric 'nz.dairy.milksolidsha', 'nzdch' for metric 'nz.dairy.cowsha'"
+    },
+    "units": {
+      "@id": "[units](#units)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "ISO unit name"
+    },
+    "denominator": {
+      "@id": "[denominator](#denominator)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "ISO unit name or 'cows', 'FTE', etc"
+    },
+    "currency": {
+      "@id": "[Currency](#Currency)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "ISO 4217 International currency code"
+    }
+  }
+}

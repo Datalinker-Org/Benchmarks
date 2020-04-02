@@ -1,1 +1,40 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"min":{"@id":"https://www.datalinker.org/context/BenchmarkMetricStatistics-Min","@type":"xsd:decimal","type":"number","dldescription":""},"max":{"@id":"https://www.datalinker.org/context/BenchmarkMetricStatistics-Max","@type":"xsd:decimal","type":"number","dldescription":""},"cv":{"@id":"https://www.datalinker.org/context/BenchmarkMetricStatistics-CoefficientOfVariation","@type":"xsd:decimal","type":"number","dldescription":"Coefficient of variation"},"quartiles":{"@id":"https://www.datalinker.org/context/BenchmarkMetricStatistics-Quartile","@type":"xsd:decimal","type":"array","items":{"type":"number"},"@container":"@set","dldescription":"Ordered array of four quartile values"},"percentiles":{"@id":"https://www.datalinker.org/context/BenchmarkMetricStatistics-Percentile","@type":"xsd:decimal","type":"array","items":{"type":"number"},"@container":"@set","dldescription":"Ordered array of 10 percentile values"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "min": {
+      "@id": "[Min](#Min)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": ""
+    },
+    "max": {
+      "@id": "[Max](#Max)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": ""
+    },
+    "cv": {
+      "@id": "[CoefficientOfVariation](#CoefficientOfVariation)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Coefficient of variation"
+    },
+    "quartiles": {
+      "@id": "[Quartile](#Quartile)",
+      "@type": "xsd:decimal",
+      "type": "array",
+      "items": { "type": "number" },
+      "@container": "@set",
+      "dldescription": "Ordered array of four quartile values"
+    },
+    "percentiles": {
+      "@id": "[Percentile](#Percentile)",
+      "@type": "xsd:decimal",
+      "type": "array",
+      "items": { "type": "number" },
+      "@container": "@set",
+      "dldescription": "Ordered array of 10 percentile values"
+    }
+  }
+}

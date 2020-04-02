@@ -1,1 +1,48 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"metric":{"@id":"https://www.datalinker.org/context/BenchmarkMetric","@type":"https://www.datalinker.org/contexts/2.0/BenchmarkMetric.jsonld","type":"object","dldescription":"The metric delivered in this result"},"participants":{"@id":"https://www.datalinker.org/context/BenchmarkMetricResult-Participants","@type":"xsd:number","type":"integer","dldescription":"Sample size or number of participating entities whose data has been aggregated to compute the benchmark Metric"},"qualityScore":{"@id":"https://www.datalinker.org/context/BenchmarkMetricResult-QualityScore","@type":"xsd:decimal","type":"number","dldescription":"Combined quality score of the benchmark data on a scale of 0 to 1"},"mean":{"@id":"https://www.datalinker.org/context/BenchmarkMetricResult-Mean","@type":"xsd:decimal","type":"number","dldescription":""},"median":{"@id":"https://www.datalinker.org/context/BenchmarkMetricResult-Median","@type":"xsd:decimal","type":"number","dldescription":""},"sum":{"@id":"https://www.datalinker.org/context/BenchmarkMetricResult-Sum","@type":"xsd:decimal","type":"number","dldescription":""},"stats":{"@id":"https://www.datalinker.org/context/BenchmarkMetricStatistics","@type":"https://www.datalinker.org/contexts/2.0/BenchmarkMetricStatistics.jsonld","type":"object","dldescription":"Statistics for this result"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "metric": {
+      "@id": "[BenchmarkMetric](BenchmarkMetric.md)",
+      "@type": "@id",
+      "type": "object",
+      "dldescription": "The metric delivered in this result"
+    },
+    "participants": {
+      "@id": "[Participants](#Participants)",
+      "@type": "xsd:number",
+      "type": "integer",
+      "dldescription": "Sample size or number of participating entities whose data has been aggregated to compute the benchmark Metric"
+    },
+    "qualityScore": {
+      "@id": "[QualityScore](#QualityScore)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Combined quality score of the benchmark data on a scale of 0 to 1"
+    },
+    "mean": {
+      "@id": "[Mean](#Mean)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": ""
+    },
+    "median": {
+      "@id": "[Median](#Median)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": ""
+    },
+    "sum": {
+      "@id": "[Sum](#Sum)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": ""
+    },
+    "stats": {
+      "@id": "[BenchmarkMetricStatistics](BenchmarkMetricStatistics.md)",
+      "@type": "@id",
+      "type": "object",
+      "dldescription": "Statistics for this result"
+    }
+  }
+}

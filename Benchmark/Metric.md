@@ -1,0 +1,34 @@
+ - <b id="#/properties/benchmarkMetric">benchmarkMetric</b>
+	 - **Description:** Metric without the actual amounts
+	 - **Type:** `object`
+	 - <b id="benchmarkmetricbenchmarkmetric.md">Link to schema: [BenchmarkMetric](BenchmarkMetric.md)</b>
+ - <b id="#/properties/amount">amount</b>
+	 - **Description:** Actual value of the Metric
+	 - **Type:** `number`
+ - <b id="#/properties/participants">participants</b>
+	 - **Description:** Sample size or number of participating entities whose data has been aggregated to compute the benchmark Metric
+	 - **Type:** `integer`
+ - <b id="#/properties/qualityScore">qualityScore</b>
+	 - **Description:** Combined quality score of the benchmark data on a scale of 0 to 1
+	 - **Type:** `number`
+ - <b id="#/properties/mean">mean</b>
+	 - **Type:** `number`
+ - <b id="#/properties/min">min</b>
+	 - **Type:** `number`
+ - <b id="#/properties/max">max</b>
+	 - **Type:** `number`
+ - <b id="#/properties/median">median</b>
+	 - **Type:** `number`
+ - <b id="#/properties/sum">sum</b>
+	 - **Type:** `number`
+ - <b id="#/properties/quartiles">quartiles</b>
+	 - **Description:** Ordered array of four quartile values
+	 - **Type:** `array`
+ - <b id="#/properties/percentiles">percentiles</b>
+	 - **Description:** Ordered array of 10 percentile values
+	 - **Type:** `array`
+ - <b id="#/properties/cv">cv</b>
+	 - **Description:** coefficient of variation
+	 - **Type:** `number`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

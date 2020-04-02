@@ -1,1 +1,36 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"dimensions":{"@id":"https://www.datalinker.org/context/BenchmarkDimension","@type":"https://www.datalinker.org/contexts/2.0/BenchmarkDimension.jsonld","type":"array","items":{"type":"object"},"@container":"@set","dldescription":"Array of definitions for supported dimensions"},"metrics":{"@id":"https://www.datalinker.org/context/BenchmarkMetric","@type":"https://www.datalinker.org/contexts/2.0/BenchmarkMetric.jsonld","type":"array","items":{"type":"object"},"@container":"@set","dldescription":"Array of definitions for supported metrics"},"benchmarkData":{"@id":"https://www.datalinker.org/context/BenchmarkSchema-benchmarkData","@type":"@id","type":"string","format":"uri","dltype":"https://www.datalinker.org/context/BenchmarkData","dldescription":"URL to Benchmark data to which the dimensions and filters can be applied"},"organisation":{"@id":"http://schema.org/Organization","@type":"http://schema.org/Organization.jsonld","type":"object","dldescription":"An organization details defined by schema.org"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "dimensions": {
+      "@id": "[BenchmarkDimension](BenchmarkDimension.md)",
+      "@type": "@id",
+      "type": "array",
+      "items": { "type": "object" },
+      "@container": "@set",
+      "dldescription": "Array of definitions for supported dimensions"
+    },
+    "metrics": {
+      "@id": "[BenchmarkMetric](BenchmarkMetric.md)",
+      "@type": "@id",
+      "type": "array",
+      "items": { "type": "object" },
+      "@container": "@set",
+      "dldescription": "Array of definitions for supported metrics"
+    },
+    "benchmarkData": {
+      "@id": "[benchmarkData](#benchmarkData)",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dltype": "[BenchmarkData](BenchmarkData.md)",
+      "dldescription": "URL to Benchmark data to which the dimensions and filters can be applied"
+    },
+    "organisation": {
+      "@id": "http://schema.org/Organization",
+      "@type": "@id",
+      "type": "object",
+      "dldescription": "An organization details defined by schema.org"
+    }
+  }
+}

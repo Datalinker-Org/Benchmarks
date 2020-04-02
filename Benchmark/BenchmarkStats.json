@@ -1,1 +1,34 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"min":{"@id":"https://www.datalinker.org/context/BenchmarkStats-Min","@type":"xsd:decimal","type":"number","dldescription":""},"max":{"@id":"https://www.datalinker.org/context/BenchmarkStats-Max","@type":"xsd:decimal","type":"number","dldescription":""},"quartiles":{"@id":"https://www.datalinker.org/context/BenchmarkStats-Quartile","@type":"xsd:decimal","type":"array","items":{"type":"number"},"@container":"@set","dldescription":"Ordered array of four quartile values"},"percentiles":{"@id":"https://www.datalinker.org/context/BenchmarkStats-Percentile","@type":"xsd:decimal","type":"array","items":{"type":"number"},"@container":"@set","dldescription":"Ordered array of 10 percentile values"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "min": {
+      "@id": "[Min](#Min)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": ""
+    },
+    "max": {
+      "@id": "[Max](#Max)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": ""
+    },
+    "quartiles": {
+      "@id": "[Quartile](#Quartile)",
+      "@type": "xsd:decimal",
+      "type": "array",
+      "items": { "type": "number" },
+      "@container": "@set",
+      "dldescription": "Ordered array of four quartile values"
+    },
+    "percentiles": {
+      "@id": "[Percentile](#Percentile)",
+      "@type": "xsd:decimal",
+      "type": "array",
+      "items": { "type": "number" },
+      "@container": "@set",
+      "dldescription": "Ordered array of 10 percentile values"
+    }
+  }
+}

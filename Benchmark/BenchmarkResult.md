@@ -1,0 +1,25 @@
+ - <b id="#/properties/metric">metric</b>
+	 - **Description:** The metric delivered in this result
+	 - **Type:** `object`
+	 - <b id="benchmarkmetricbenchmarkmetric.md">Link to schema: [BenchmarkMetric](BenchmarkMetric.md)</b>
+ - <b id="#/properties/participants">participants</b>
+	 - **Description:** Sample size or number of participating entities whose data has been aggregated to compute the benchmark Metric
+	 - **Type:** `integer`
+ - <b id="#/properties/qualityScore">qualityScore</b>
+	 - **Description:** Combined quality score of the benchmark data on a scale of 0 to 1
+	 - **Type:** `number`
+ - <b id="#/properties/mean">mean</b>
+	 - **Type:** `number`
+ - <b id="#/properties/median">median</b>
+	 - **Type:** `number`
+ - <b id="#/properties/sum">sum</b>
+	 - **Type:** `number`
+ - <b id="#/properties/cv">cv</b>
+	 - **Description:** Coefficient of variation
+	 - **Type:** `number`
+ - <b id="#/properties/stats">stats</b>
+	 - **Description:** Statistics for this result
+	 - **Type:** `object`
+	 - <b id="benchmarkstatsbenchmarkstats.md">Link to schema: [BenchmarkStats](BenchmarkStats.md)</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
